@@ -1,6 +1,6 @@
 import { REST, Routes } from 'discord.js';
 // コマンドを追加したらここに追加しよう その1
-import help from './commands/help.js';
+import help from './commands/help.ts';
 
 const commands = [
     // コマンドを追加したらここに追加しよう その2
