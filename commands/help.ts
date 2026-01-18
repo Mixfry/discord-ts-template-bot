@@ -31,7 +31,6 @@ ${test}
             )
             .setFooter({ text: 'footer' })
             .setColor('#00ff00');
-        // @ts-ignore: interaction.reply might not accept pure EmbedBuilder in some versions without .toJSON() or array mismatch, but typically it works. casting as need if strict.
         await interaction.reply({ embeds: [embed] });
     }
 };
