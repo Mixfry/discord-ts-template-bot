@@ -1,0 +1,23 @@
+{
+  "name": "discord-template-bot",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "script.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --env-file=.env dist/deploy-commands.js && node --env-file=.env dist/script.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/formatters": "^0.6.0",
+    "discord.js": "^14.17.3",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.9",
+    "typescript": "^5.9.3"
+  }
+}
